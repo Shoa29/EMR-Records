@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+		}
+
+		form{
+			border: 2px solid blue;
+			margin-top: 3%;
+			margin-left: 30%;
+			margin-right: 30%;
+			padding-left: 5%;
+			padding-top: 2%;
+			padding-bottom: 3%;
+		}
+
+		p{
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		h2{
+
+		}
+
+		input{
+			border: 1px solid black;
+			padding-left: 3%;
+			padding-top: 1%;
+			padding-bottom: 1%;
+			padding-right: 15%;
+		}
+
+	</style>
+</head>
+<body>
+
+<form>
+	<center><h2>Registration Form</h2></center>
+
+	<p>Name: </p><input type="text" name="txtName" placeholder="name" required>
+	<p>User Name: </p><input type="text" name="txtUsername" placeholder="User name" required>
+	<p>Mother Name: </p><input type="text" name="txtMname" placeholder="Mother name" required>
+	<p>Father Name: </p><input type="text" name="txtFname" placeholder="Father name" required>
+	<p>Password: </p><input type="text" name="txtPassword" placeholder="Password" required>
+	<p>Date of Birth: </p><input type="text" name="txtDob" placeholder="DOB" required>
+	<p>Address: </p><input type="text" name="txtAddress" placeholder="Address" required>
+	<p>Gender: </p>
+	 <input type="radio" name="gender" value="male" required> Male<br>
+  <input type="radio" name="gender" value="female" required> Female<br>
+  <input type="radio" name="gender" value="other" required> Other
+	<p>Contact Number: </p><input type="text" name="txtPhone" placeholder="Contact Number" required>
+	<p>Upload Image: </p>
+	<input type="file" name="pic" accept="image/*" required>
+	<p>E-Mail: </p><input type="text" name="txtEmail" placeholder="E-Mail" required>
+	<p>Confirm Password: </p><input type="text" name="txtCPassword" placeholder="Confirm Password" required><br><br>
+	<input type="submit" name="" value="Register" required>
+
+
+</form>
+
+</body>
+</html>

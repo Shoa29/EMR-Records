@@ -1,0 +1,42 @@
+.pro{
+			border: 2px solid #d0d4d9;
+			margin-left: 20%;
+			margin-right: 20%;
+			margin-top: 2%;
+			margin-bottom: 3%;
+			padding-top: 3%;
+			padding-bottom: 3%;
+			box-shadow: 0 0px 40px #d0d4d9; 
+			background-color: #e6eaee;
+		}
+		.img{
+			border-radius: 50%;
+		}
+		h1{
+			text-align: center;
+		}
+		.alert{
+			margin-left: 15%;
+			margin-right: 15%;
+		}
+		.alert-warning{
+			box-shadow: 0 0px 40px #fff3cd;
+		}
+		.alert-info {
+		    box-shadow: 0 0px 40px #d1ecf1;
+		}
+		@media screen and (max-width: 800px) {
+					.pro{
+			
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: 2%;
+			margin-bottom: 3%;
+			padding-top: 3%;
+			padding-bottom: 3%;
+		}
+		.alert{
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+		}
